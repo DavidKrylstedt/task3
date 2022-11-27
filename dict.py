@@ -3,7 +3,7 @@ conn = psycopg2.connect(
    host="localhost",
    database="dict2",
    user="postgres",
-   password="SuperElla2020"
+   password="xxxxxxx"
 )
 # Reads the list
 def read_dict(C):
