@@ -24,6 +24,8 @@ def save_dict(C):
     cur = C.cursor()
     cur.execute("COMMIT;")
     cur.close()
+def insert_word(C, word, translation):
+    print(f"word: {word}, translation: {translation}")
 
 while True: ## REPL - Read Execute Program Loop
     print("You can choose from the following commands: list, add, delete and quit")
